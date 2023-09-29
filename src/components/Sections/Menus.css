@@ -1,0 +1,17 @@
+.meal-grid {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.menus {
+  background-color: var(--primary-faded);
+  padding-block: 2rem;
+  padding-inline: 1rem;
+  margin-top: 1rem;
+  border-radius: 15px;
+}
+
+.menus h3 {
+    margin-bottom: 1rem;
+}

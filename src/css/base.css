@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+}
+
+a{
+    color: var(--primary);
+}
+
+.container {
+  max-width: 1280px;
+  padding-inline: 1rem;
+}
+
+.mx-auto{
+    margin: 0 auto;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.text-base {
+  font-size: 16px;
+}
+
+.text-lg {
+  font-size: 24px;
+}
+
+.light-shadow {
+  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07))
+    drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+}
+
+.heavy-shadow {
+  filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+}
+
+.primary {
+    color: var(--primary);
+}
+
+.appearance-none {
+  display: block;
+  user-select: none;
+  appearance: none;
+
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}

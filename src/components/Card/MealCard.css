@@ -1,0 +1,46 @@
+.meal-card {
+  padding-inline: 1rem;
+  padding-block: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+  background-image: linear-gradient(0deg, rgba(1, 49, 14, 0.50) 0%, rgba(1, 49, 14, 0.50) 100%), linear-gradient(90deg, rgba(1, 135, 37, 0.96) 9.51%, rgba(41, 109, 30, 0.19) 100%),
+  url("../../../public/assets/food/pancakes.jpg");
+  border-radius: 15px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.la-heart{
+    color: white;
+}
+
+.meal-card .favourite-tab {
+  display: flex;
+  justify-content: space-between;
+}
+
+.meal-card .price-tab {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.meal-card .favourite-tab span {
+  background-color: white;
+  font-size: 12px;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border-radius: 15px;
+}
+
+
+.price-tab .name{
+    color:white
+}
+
+.price-tab .price {
+    color: var(--primary);
+    font-weight: 600;
+}

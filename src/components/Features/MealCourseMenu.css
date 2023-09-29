@@ -1,0 +1,15 @@
+.meal-course-menu-title p {
+    margin-top: 1rem;
+  }
+
+  .meal-course-menu {
+    margin-top: 3rem;
+  }
+
+  .meal-course-menu-title {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--grey-border);
+  }
+
+  

@@ -1,0 +1,37 @@
+.rounded-yellow{
+    background-color: var(--primary);
+    border-radius: 1000px;
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+}
+
+.blocked-yellow{
+    background-color: var(--primary);
+    border-radius: 30px;
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+}
+
+.blocked-light-yellow {
+    background-color: var(--primary-faded);
+    border-radius: 30px;
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+    color: black;
+    font-weight: 500;
+}
+
+.rounded-black{
+    background-color: black;
+    border-radius: 1000px;
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+}
+
+.grey-outline{
+    background-color: white;
+    border-radius: 10px;
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+    border-color: 2px solid var(--grey-border);
+}

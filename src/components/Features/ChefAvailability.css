@@ -1,0 +1,25 @@
+.text-bold{
+    font-weight: 600;
+}
+
+.chef-availability .header {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.chef-availability button {
+    margin-top: 1rem;
+}
+
+.chef-availability {
+    background-color: var(--primary-faded);
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    border-radius: 15px;
+}
+
+.message-precept {
+    font-size: 12px;
+    margin-block: 1rem;
+}

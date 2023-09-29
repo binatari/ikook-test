@@ -1,0 +1,14 @@
+.text-box{
+    padding-inline: 2rem;
+    border-radius: 15px;
+    border: 1px solid var(--grey-border);
+    margin-bottom: 2rem;
+}
+
+.text-box-input {
+  padding-block: 1rem;
+}
+
+.text-box input {
+    width: 100%;
+}

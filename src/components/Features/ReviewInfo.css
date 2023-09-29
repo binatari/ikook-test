@@ -1,0 +1,26 @@
+.review-info{
+
+}
+
+.review-info .reviewer {
+    font-size: 14px;
+    font-weight: 600;
+    margin-block: 1rem;
+}
+
+.review-info .review-stars{
+    display: flex;
+    gap: 1rem;
+    color: var(--primary);
+}
+
+.review-info .review{
+    font-size: 14px;
+    margin-block: 1rem;
+
+}
+
+.review-info  .review-date {
+    margin-bottom: 1rem;
+    font-size: 12px;
+}

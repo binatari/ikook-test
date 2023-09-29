@@ -1,0 +1,41 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--grey-border);
+  }
+
+  .menu-selection {
+    margin-top: 4rem;
+  }
+
+  .menu-tabs {
+    width: 100%;
+    display: flex;
+  }
+
+  .menu-tabs button {
+    width: 50%;
+    padding-block: 1rem;
+    border-radius: 15px;
+  }
+
+  .menu-selection i {
+    color: var(--primary);
+  }
+
+  .order-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+  }
+
+  .order-section .selection-tab {
+    width: 60%;
+  }
+
+  .order-section .order-tab {
+    width: 40%;
+  }
